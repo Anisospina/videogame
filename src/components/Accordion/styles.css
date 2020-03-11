@@ -1,0 +1,72 @@
+.containerAccordion {
+  display: flex;
+  flex-direction: row;
+}
+.square {
+  width: 200px;
+  background-color: #ffefe4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.square:first-child {
+  margin-right: 5px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.information {
+  padding: 10px;
+  background-color: #776fc4;
+  border-radius: 10px;
+}
+
+.titleCharacter {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.divTable {
+  display: flex;
+  flex-direction: row;
+  color: #a59fe3;
+  width: 80%;
+}
+.col1 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.col2 {
+  font-size: 12px;
+}
+
+.date {
+  width: 86%;
+}
+
+.conButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonMore {
+  padding: 3px 7px;
+  border: 1px solid #a59fe3;
+  border-radius: 50px;
+  color: #a59fe3;
+  align-self: flex-end;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.buttonMore:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  transition-duration: 500ms;
+}
